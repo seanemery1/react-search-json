@@ -1,0 +1,25 @@
+.recipe img{
+    object-fit:cover;
+}
+
+@media (max-width: 767px) {
+    .recipe img{
+        width:20rem;
+        height:20rem;
+    }
+      
+  }
+  
+  @media (min-width: 768px) and (max-width: 992px) {
+    .recipe img{
+        width:24rem;
+        height:24rem;
+    }       
+  }
+  
+  @media (min-width: 993px){
+    .recipe img{
+        width:30rem;
+        height:30rem;
+    }
+}

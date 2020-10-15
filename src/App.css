@@ -1,0 +1,46 @@
+:root{
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color:rgb(255, 255, 255); 
+}
+
+.App {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}
+
+.mainPage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+}
+
+img {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+@media (max-width: 767px) {
+  .mainPage img {
+    height:14rem;
+    width:21rem;
+    object-fit:cover;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .mainPage img {
+    height:18rem;
+    width:27rem;
+    object-fit:cover;
+  }
+}
+
+@media (min-width: 993px){
+  .mainPage img {
+    height:22rem;
+    width:33rem;
+    object-fit:cover;
+  }
+}
